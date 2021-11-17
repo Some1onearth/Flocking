@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlockAgent : MonoBehaviour
 {
-    Flock parentFlock;
+    public Flock parentFlock;
 
     public Collider2D AgentCollider;
 

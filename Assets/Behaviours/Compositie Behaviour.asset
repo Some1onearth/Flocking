@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   behaviours:
   - behaviour: {fileID: 11400000, guid: 2fbb35ce4a580884c9c0bf17529babb0, type: 2}
-    weight: 0.3
-  - behaviour: {fileID: 11400000, guid: 788acbb5995e20c419e33fdd5d3550de, type: 2}
-    weight: 0.2
+    weight: 1.66
+  - behaviour: {fileID: 11400000, guid: 18186cd2e5236274b88320f1ac51e1d2, type: 2}
+    weight: 6.99
   - behaviour: {fileID: 11400000, guid: 82c2ea93aaedf7b4097a3c789e1b9fac, type: 2}
-    weight: 0.5
+    weight: 2.05
   - behaviour: {fileID: 11400000, guid: 5382c0823ab879c4da37d5900b394212, type: 2}
-    weight: 0.5
+    weight: 41.53

@@ -14,7 +14,7 @@ public class StayInRadiusBehaviour : FlockBehaviour
     [SerializeField]
     private float InnerRadiusPercent = 0.9f;
 
-    public override Vector2 CalculateMove(FlockAgent agent, Flock flock)
+    public override Vector2 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock)
     {
         Vector2 centerOffset = center - (Vector2)agent.transform.position;
         float radiusFraction = centerOffset.magnitude / radius;

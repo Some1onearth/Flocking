@@ -9,6 +9,6 @@ public abstract class FlockBehaviour : ScriptableObject
 
     //Children REQUIRE this method
     
-    public abstract Vector2 CalculateMove(FlockAgent agent, Flock flock);
+    public abstract Vector2 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock);
 }
 

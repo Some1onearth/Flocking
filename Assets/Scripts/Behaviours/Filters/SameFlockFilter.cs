@@ -13,7 +13,10 @@ public class SameFlockFilter : ContextFilter
             FlockAgent itemAgent = item.GetComponent<FlockAgent>();
             if(itemAgent != null)
             {
-                filtered.Add(item);
+                if (itemAgent.parentFlock == agent.parentFlock)
+                {
+                    filtered.Add(item);
+                }
             }
         }
         return filtered;

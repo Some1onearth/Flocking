@@ -57,16 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Behaviours\CohesionBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Behaviours\Filters\SameFlockFilter.cs" />
     <Compile Include="Assets\Scripts\Behaviours\AlignmentBehaviour.cs" />
     <Compile Include="Assets\Scripts\WeaponSO.cs" />
     <Compile Include="Assets\Scripts\Flock.cs" />
+    <Compile Include="Assets\Scripts\Behaviours\Filters\ContextFilter.cs" />
     <Compile Include="Assets\Scripts\Behaviours\AvoidanceBehaviour.cs" />
     <Compile Include="Assets\Scripts\FlockAgent.cs" />
     <Compile Include="Assets\Scripts\Behaviours\FlockBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviours\CompositieBehaviour.cs" />
-    <Compile Include="Assets\Scripts\ContextFilter.cs" />
-    <Compile Include="Assets\Scripts\SameFlockFilter.cs" />
     <Compile Include="Assets\Scripts\Behaviours\StayInRadiusBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Behaviours\Filters\FilteredFlockBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Behaviours\SteeredCohesionBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

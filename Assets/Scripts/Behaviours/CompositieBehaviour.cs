@@ -14,13 +14,13 @@ public class CompositieBehaviour : FlockBehaviour
     }
 
     public BehaviourGroup[] behaviours;
-    public override Vector2 CalculateMove(FlockAgent agent, Flock flock)
+    public override Vector2 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock)
     {
         Vector2 move = Vector2.zero;
 
         foreach(BehaviourGroup currentBehaviour in behaviours)
         {
-            Vector2 partialMove = currentBehaviour.behaviour.CalculateMove(agent, flock);
+            Vector2 partialMove = currentBehaviour.behaviour.CalculateMove(agent, context, flock);
             partialMove.Normalize();
             partialMove *= currentBehaviour.weight;
 
